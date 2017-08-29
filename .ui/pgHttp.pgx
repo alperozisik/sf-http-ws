@@ -1,0 +1,362 @@
+{
+	"components": [
+		{
+			"type": "Page",
+			"id": "2fc8-6085-0e97-5311",
+			"initialized": true,
+			"themeProps": {
+				"Page": "Default"
+			},
+			"userProps": {},
+			"className": ".page",
+			"version": "6.4.6",
+			"props": {
+				"backgroundColor": "#EEEEEE",
+				"orientation": "PORTRAIT",
+				"flexProps": {
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"direction": "INHERIT",
+					"flexDirection": "COLUMN",
+					"flexWrap": "NOWRAP",
+					"justifyContent": "FLEX_START"
+				},
+				"name": "pgHttp",
+				"parent": null,
+				"children": [
+					"3213-bf6a-7301-c868",
+					"4c20-ccd4-4f4b-663c",
+					"0292-9ff8-3ce4-8fc0"
+				],
+				"width": 135,
+				"height": 217.08
+			}
+		},
+		{
+			"type": "StatusBar",
+			"id": "3213-bf6a-7301-c868",
+			"themeProps": {
+				"StatusBar": "Default"
+			},
+			"userProps": {},
+			"className": ".statusBar",
+			"props": {
+				"color": "#00A1F1",
+				"visible": true,
+				"name": "statusBar",
+				"parent": "2fc8-6085-0e97-5311",
+				"children": [],
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "HeaderBar",
+			"id": "4c20-ccd4-4f4b-663c",
+			"themeProps": {
+				"HeaderBar": "Default"
+			},
+			"userProps": {
+				"title": "Http Test"
+			},
+			"className": ".headerBar",
+			"props": {
+				"title": "Http Test",
+				"titleColor": "#000000",
+				"visible": true,
+				"backgroundColor": "#FFFFFF",
+				"name": "headerBar",
+				"parent": "2fc8-6085-0e97-5311",
+				"children": [],
+				"isRemovable": false
+			}
+		},
+		{
+			"type": "ScrollView",
+			"id": "0292-9ff8-3ce4-8fc0",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"width": null,
+				"height": null,
+				"usePageVariable": true,
+				"flexProps": {
+					"flexGrow": 1
+				}
+			},
+			"className": ".scrollView",
+			"props": {
+				"height": null,
+				"width": null,
+				"touchEnabled": true,
+				"visible": true,
+				"backgroundColor": "#FFFFFF",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"align": "VERTICAL",
+				"scrollBarEnabled": true,
+				"usePageVariable": true,
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"direction": "INHERIT",
+					"alignContent": "STRETCH",
+					"alignItems": "STRETCH",
+					"justifyContent": "FLEX_START",
+					"flexWrap": "NOWRAP",
+					"flexDirection": "COLUMN",
+					"positionType": "RELATIVE",
+					"flexGrow": 1
+				},
+				"name": "scroll",
+				"parent": "2fc8-6085-0e97-5311",
+				"children": [
+					"9960-3bb0-1ee1-6ab2",
+					"ee08-bd9a-307a-c0c1",
+					"c9b4-2cac-9954-1822",
+					"586a-dc7e-ab94-7f37",
+					"8390-a09d-db8e-2952",
+					"bf25-abfa-6a23-ad2a"
+				]
+			}
+		},
+		{
+			"type": "TextBox",
+			"id": "9960-3bb0-1ee1-6ab2",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true,
+				"text": "https://httptest-alperozisik.c9users.io:8080/",
+				"hint": "URL"
+			},
+			"className": ".textBox",
+			"props": {
+				"height": 70,
+				"touchEnabled": true,
+				"text": "https://httptest-alperozisik.c9users.io:8080/",
+				"visible": true,
+				"backgroundColor": "#FFFFFF",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba(0,0,0,1)",
+				"textAlignment": "MIDLEFT",
+				"usePageVariable": true,
+				"hint": "URL",
+				"font": {
+					"size": 16,
+					"bold": false,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"name": "tbUrl",
+				"parent": "0292-9ff8-3ce4-8fc0",
+				"children": []
+			}
+		},
+		{
+			"type": "Label",
+			"id": "ee08-bd9a-307a-c0c1",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"text": "Method",
+				"usePageVariable": true,
+				"font": {
+					"bold": true
+				}
+			},
+			"className": ".label",
+			"props": {
+				"height": 70,
+				"touchEnabled": true,
+				"text": "Method",
+				"visible": true,
+				"multiline": false,
+				"backgroundColor": "#FFFFFF",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "#000000",
+				"textAlignment": "MIDLEFT",
+				"usePageVariable": true,
+				"font": {
+					"size": 16,
+					"bold": true,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"name": "lblMethod",
+				"parent": "0292-9ff8-3ce4-8fc0",
+				"children": []
+			}
+		},
+		{
+			"type": "TextArea",
+			"id": "c9b4-2cac-9954-1822",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"text": "{\"sample\":\"header\", \"content-type\":\"text/plain\"}",
+				"usePageVariable": true
+			},
+			"className": ".textArea",
+			"props": {
+				"height": 200,
+				"touchEnabled": true,
+				"text": "{\"sample\":\"header\", \"content-type\":\"text/plain\"}",
+				"visible": true,
+				"backgroundColor": "#FFFFFF",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba(0,0,0,1)",
+				"textAlignment": "TOPLEFT",
+				"usePageVariable": true,
+				"font": {
+					"size": 16,
+					"bold": false,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"name": "taHeaders",
+				"parent": "0292-9ff8-3ce4-8fc0",
+				"children": []
+			}
+		},
+		{
+			"type": "TextArea",
+			"id": "586a-dc7e-ab94-7f37",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"text": "alper",
+				"usePageVariable": true
+			},
+			"className": ".textArea",
+			"props": {
+				"height": 200,
+				"touchEnabled": true,
+				"text": "alper",
+				"visible": true,
+				"backgroundColor": "#FFFFFF",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "rgba(0,0,0,1)",
+				"textAlignment": "TOPLEFT",
+				"usePageVariable": true,
+				"font": {
+					"size": 16,
+					"bold": false,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"name": "taBody",
+				"parent": "0292-9ff8-3ce4-8fc0",
+				"children": []
+			}
+		},
+		{
+			"type": "Button",
+			"id": "8390-a09d-db8e-2952",
+			"themeProps": {
+				"Sizes": "Default",
+				"Highlights": "Default"
+			},
+			"userProps": {
+				"text": "Request",
+				"usePageVariable": true
+			},
+			"className": ".button",
+			"props": {
+				"height": 70,
+				"touchEnabled": true,
+				"text": "Request",
+				"visible": true,
+				"backgroundColor": "#00A1F1",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "#FFFFFF",
+				"textAlignment": "MIDCENTER",
+				"usePageVariable": true,
+				"font": {
+					"size": 16,
+					"bold": false,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"positionType": "RELATIVE",
+					"alignSelf": "AUTO"
+				},
+				"name": "btnSend",
+				"parent": "0292-9ff8-3ce4-8fc0",
+				"children": []
+			}
+		},
+		{
+			"type": "Label",
+			"id": "bf25-abfa-6a23-ad2a",
+			"themeProps": {
+				"Sizes": "Default"
+			},
+			"userProps": {
+				"usePageVariable": true,
+				"multiline": true,
+				"height": 280,
+				"text": null
+			},
+			"className": ".label",
+			"props": {
+				"height": 280,
+				"touchEnabled": true,
+				"text": null,
+				"visible": true,
+				"multiline": true,
+				"backgroundColor": "#FFFFFF",
+				"alpha": 1,
+				"borderColor": "rgba(0,0,0,1)",
+				"borderWidth": 0,
+				"textColor": "#000000",
+				"textAlignment": "MIDLEFT",
+				"usePageVariable": true,
+				"font": {
+					"size": 16,
+					"bold": false,
+					"italic": false,
+					"family": "Arial"
+				},
+				"flexProps": {
+					"alignSelf": "AUTO",
+					"positionType": "RELATIVE"
+				},
+				"name": "lblResponse",
+				"parent": "0292-9ff8-3ce4-8fc0",
+				"children": []
+			}
+		}
+	]
+}
